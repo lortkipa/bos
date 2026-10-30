@@ -1,0 +1,18 @@
+#!/bin/sh
+# Called by the installer inside the target system (see /etc/calamares/settings.conf).
+set -e
+export DEBIAN_FRONTEND=noninteractive
+
+# UEFI machines: swap the BIOS bootloader package for signed GRUB + shim. The
+# packages were cached in the image at build time, so no network is needed.
+if [ -d /sys/firmware/efi ] && ls /var/lib/bos/debs/efi/*.deb >/dev/null 2>&1; then
+    apt-get install -y --allow-downgrades /var/lib/bos/debs/efi/*.deb
+fi
+rm -rf /var/lib/bos/debs
+
+# Live-session-only bits.
+rm -f /usr/share/applications/bos-install.desktop \
+      /etc/skel/.config/plank/dock1/launchers/bos-install.dockitem \
+      /usr/bin/bos-installer
+sed -i "s/, 'bos-install.dockitem'//" /etc/dconf/db/local.d/00-bos
+dconf update

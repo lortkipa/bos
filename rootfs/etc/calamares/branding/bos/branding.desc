@@ -1,0 +1,34 @@
+---
+componentName: bos
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 920px,580px
+windowPlacement: center
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         "@NAME@"
+    shortProductName:    "@NAME@"
+    version:             "@VERSION@"
+    shortVersion:        "@VERSION@"
+    versionedName:       "@NAME@ @VERSION@"
+    shortVersionedName:  "@NAME@ @VERSION@"
+    bootloaderEntryName: "@NAME@"
+    productUrl:          https://github.com/lortkipa/bos
+    supportUrl:          https://github.com/lortkipa/bos/issues
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+slideshowAPI:            2
+
+style:
+    SidebarBackground:        "#F4F4F6"
+    SidebarText:              "#2C2C30"
+    SidebarTextCurrent:       "#FFFFFF"
+    SidebarBackgroundCurrent: "#5E8BFF"

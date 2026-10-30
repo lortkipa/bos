@@ -1,0 +1,12 @@
+PRETTY_NAME="@NAME@ @VERSION@ (@CODENAME@)"
+NAME="@NAME@"
+VERSION_ID="@VERSION@"
+VERSION="@VERSION@ (@CODENAME@)"
+VERSION_CODENAME=@SUITE@
+ID=@ID@
+ID_LIKE="ubuntu debian"
+UBUNTU_CODENAME=@SUITE@
+LOGO=bos-logo
+HOME_URL="https://github.com/lortkipa/bos"
+SUPPORT_URL="https://github.com/lortkipa/bos/issues"
+BUG_REPORT_URL="https://github.com/lortkipa/bos/issues"

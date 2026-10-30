@@ -1,0 +1,5 @@
+# Only needed on the live ISO; the installer removes these from installed systems.
+casper
+calamares
+calamares-settings-ubuntu-common
+squashfs-tools

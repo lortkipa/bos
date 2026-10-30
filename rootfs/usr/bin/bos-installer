@@ -1,0 +1,3 @@
+#!/bin/sh
+# Start the bOS installer with root rights (the live user has passwordless sudo).
+exec sudo -E calamares -D6 "$@"

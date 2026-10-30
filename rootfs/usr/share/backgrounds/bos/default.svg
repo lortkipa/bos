@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E6EDFB"/>
+      <stop offset="1" stop-color="#F7EAF1"/>
+    </linearGradient>
+    <radialGradient id="blue"><stop offset="0" stop-color="#7FA6FF" stop-opacity=".75"/><stop offset="1" stop-color="#7FA6FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violet"><stop offset="0" stop-color="#B996FF" stop-opacity=".7"/><stop offset="1" stop-color="#B996FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="peach"><stop offset="0" stop-color="#FFB9A0" stop-opacity=".65"/><stop offset="1" stop-color="#FFB9A0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="mint"><stop offset="0" stop-color="#8EE0DA" stop-opacity=".55"/><stop offset="1" stop-color="#8EE0DA" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#base)"/>
+  <circle cx="260" cy="220" r="760" fill="url(#blue)"/>
+  <circle cx="1700" cy="930" r="820" fill="url(#violet)"/>
+  <circle cx="1560" cy="120" r="560" fill="url(#peach)"/>
+  <circle cx="640" cy="1060" r="620" fill="url(#mint)"/>
+  <path d="M-100 760 C 360 520, 760 980, 1180 700 S 1820 420, 2040 560 L 2040 640 C 1800 520, 1500 640, 1180 800 S 380 640, -100 860 Z" fill="url(#ribbon)"/>
+  <path d="M-100 860 C 420 660, 820 1040, 1240 820 S 1860 600, 2040 700 L 2040 740 C 1820 660, 1520 780, 1240 880 S 400 760, -100 900 Z" fill="url(#ribbon2)"/>
+</svg>

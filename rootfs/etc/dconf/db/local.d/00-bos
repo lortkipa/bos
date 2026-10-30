@@ -1,0 +1,30 @@
+# bOS defaults. Users can still change everything; these only seed the values.
+
+[net/launchpad/plank/docks/dock1]
+theme='bOS'
+position='bottom'
+alignment='center'
+icon-size=48
+zoom-enabled=true
+zoom-percent=145
+hide-mode='none'
+show-dock-item=false
+lock-items=false
+tooltips-enabled=true
+dock-items=['apps.dockitem', 'thunar.dockitem', 'org.gnome.Epiphany.dockitem', 'xfce4-terminal.dockitem', 'org.xfce.mousepad.dockitem', 'galculator.dockitem', 'xfce-settings-manager.dockitem', 'bos-install.dockitem', 'trash.dockitem']
+
+[org/gnome/desktop/interface]
+gtk-theme='Arc-Lighter'
+icon-theme='Papirus-Light'
+font-name='Inter 10'
+document-font-name='Inter 10'
+monospace-font-name='JetBrains Mono 10'
+color-scheme='prefer-light'
+cursor-theme='Adwaita'
+
+[org/gnome/desktop/wm/preferences]
+button-layout='close,minimize,maximize:'
+titlebar-font='Inter Semi-Bold 10'
+
+[org/gnome/epiphany]
+homepage-url='https://duckduckgo.com'

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Dock
+Comment=bOS dock
+Exec=plank
+Icon=plank
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

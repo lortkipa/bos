@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Install bOS
+GenericName=System Installer
+Comment=Install bOS on this computer
+Exec=bos-installer
+Icon=bos-logo
+Terminal=false
+StartupNotify=true
+Categories=System;
+Keywords=installer;calamares;install;
